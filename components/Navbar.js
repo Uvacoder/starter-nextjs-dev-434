@@ -64,6 +64,17 @@ const Navbar = () => {
                         Home
                     </Button>
                 </NextLink>
+                <NextLink href="/bookmarks" passHref>
+                    <Button
+                        as="a"
+                        variant="ghost"
+                        p={[1, 2, 4]}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname.includes('/bookmarks') ? navHoverBg[colorMode] : null}
+                        aria-label="Bookmarks"
+                    >
+                        Bookmarks
+                    </Button>
+                </NextLink>
             </Box>
         </Flex >
     )
