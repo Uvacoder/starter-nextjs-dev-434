@@ -24,7 +24,7 @@ export default function Home() {
         }}
       />
       <Container>
-        <Heading as="h1" size="3xl">Hello, I am Benjamin Carlson</Heading>
+        <Heading as="h1" size="3xl">Hello, I am Bill Lumberg</Heading>
         <Text fontSize="2xl" my={4}>A developer, creator, and student.</Text>
         <Button colorScheme="cyan" size="lg">Hire Me!</Button>
       </Container>
