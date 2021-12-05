@@ -75,6 +75,17 @@ const Navbar = () => {
                         Bookmarks
                     </Button>
                 </NextLink>
+                <NextLink href="/snippets" passHref>
+                    <Button
+                        as="a"
+                        variant="ghost"
+                        p={[1, 2, 4]}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname.includes('/snippets') ? navHoverBg[colorMode] : null}
+                        aria-label="Snippets"
+                    >
+                        Snippets
+                    </Button>
+                </NextLink>
             </Box>
         </Flex >
     )
